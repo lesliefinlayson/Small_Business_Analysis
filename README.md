@@ -6,9 +6,11 @@ Week 2 - Project Notes
 
 •	started visualizations in Tableau
 
-_Appears to be a trend that larger/multi-scoped projects have less accurate bids.  Something to look at in R?
+[link to dashboard](https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/totals?publish=yes)
 
-_Interactive piece of project.  Owner would like to find at a glance information when he has a question.  For example, be able to quickly search/find what work was done for a particular client.  
+_Appears to be a trend that larger/multi-scoped projects have less accurate bids.  Something to look at in R?_
+
+_Interactive piece of project.  Owner would like to find at a glance information when he has a question.  For example, be able to quickly search/find what work was done for a particular client._  
 
 
 
