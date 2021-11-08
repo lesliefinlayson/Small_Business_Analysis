@@ -1,6 +1,20 @@
 # Final-Project
 
-Project Notes
+Week 2 - Project Notes
+
+•	completed ETL
+
+•	started visualizations in Tableau
+
+_Appears to be a trend that larger/multi-scoped projects have less accurate bids.  Something to look at in R?
+
+_Interactive piece of project.  Owner would like to find at a glance information when he has a question.  For example, be able to quickly search/find what work was done for a particular client.  
+
+
+
+
+
+Week 1 - Project Notes
 
 Selected Topic:  Happy to Help Construction Inc. – how’s the company doing?  The owner generates bids for projects, are they accurate?  Capture the costs of the actual project?  
 Why:  Know the owner, he’d like to know!
