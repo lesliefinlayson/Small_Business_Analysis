@@ -2,7 +2,7 @@
 
 ## Project Overview and Purpose
 
-Business is booming for Happy to Help Construction, a local construction company that has been specializing for decades in kitchen and bathroom models and has recently expanded to larger scale multi-scope remodels.  More and bigger projects, bigger bids, larger crews, the Company must be doing great. Mike(ownder and CEO) relies on his knowledge and experience to estimate bids and relies largerly on his math skills and memory to track current projects costs, including material and labor.
+Business is booming for Happy to Help Construction, a local construction company that has been specializing for over two decades in kitchen and bathroom remodels and has recently expanded to larger scale multi-scope remodels.  More and bigger projects, bigger bids, larger crews, the Company must be doing great. Mike(owner and CEO) relies on his knowledge and experience to estimate bids and relies largerly on his math skills and memory to track current projects costs, including material and labor.
 
 Question for this analysis - how well is this working?  Are Mike's project "guesstimates" close to actual project costs?
 
