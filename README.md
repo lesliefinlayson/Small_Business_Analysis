@@ -2,15 +2,15 @@
 
 ## Project Overview and Purpose
 
-Business is booming for Happy to Help Construction, a local construction company that has been specializing for over two decades in kitchen and bathroom remodels and has recently expanded to larger scale multi-scope remodels.  More and bigger projects, bigger bids, larger crews, the Company must be doing great. Mike(owner and CEO) relies on his knowledge and experience to estimate bids and relies largerly on his math skills and memory to track current projects costs, including material and labor.
+Business is booming for Happy to Help Construction, a local construction company that has been specializing for over two decades in kitchen and bathroom remodels and has recently expanded to larger scale multi-scope remodels.  More and bigger projects, bigger bids, larger crews, the Company must be doing great. Bob (owner and CEO) relies on his knowledge and experience to estimate bids and relies largerly on his math skills and memory to track current projects costs, including material and labor.
 
-Question for this analysis - how well is this working?  Are Mike's project "guesstimates" close to actual project costs?
+Question for this analysis - how well is this working?  Are Bob's project "guesstimates" close to actual project costs?
 
 ## Analysis
 
 ### _Pre-processing_
 
-Mike uses a hodgepodge of sources to keep up with project costs, including multiple Excel spreadsheets and a cloud-based time tracking tool (TSHeets) to track employee hours (except for one employee who submits invoices for payment).  
+Bob uses a hodgepodge of sources to keep up with project costs, including multiple Excel spreadsheets and a cloud-based time tracking tool (TSHeets) to track employee hours (except for one employee who submits invoices for payment).  
 
 Task:  collect information in one place.  I used Pandas in Jupyter Notebooks for the ETL process.
 
