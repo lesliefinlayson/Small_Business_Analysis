@@ -51,7 +51,9 @@ Steps taken:
 
 <img width="775" alt="2021-11-22 (8)" src="https://user-images.githubusercontent.com/84471904/142930860-420b28f2-2dc1-471d-860a-ee8a4e653703.png">
 
+Finally have a dataframe that can be used for analysis.  
 
+### _Graphs in Tableau_
 
 Week 2 - Project Notes
 
