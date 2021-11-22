@@ -24,7 +24,8 @@ Steps taken:
  <img width="397" alt="2021-11-21 (15)" src="https://user-images.githubusercontent.com/84471904/142788648-f72f5292-8c65-4c7c-a965-cb1edb635456.png">
 5.  Added these new columns to the existing dataframes using "merge".  Example:
 
-<img width="562" alt="2021-11-21 (17)" src="https://user-images.githubusercontent.com/84471904/142788838-4065fea8-04ad-4760-9931-2957ed2e8dfb.png">
+<img width="605" alt="2021-11-21 (18)" src="https://user-images.githubusercontent.com/84471904/142788905-286d96ff-5c36-4944-89c5-01546f228da9.png">
+
 
 
 
