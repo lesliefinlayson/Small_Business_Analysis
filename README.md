@@ -19,6 +19,7 @@ Steps taken:
 2.  The imported csv files contain "currency" data type and had to be converted to numeric formats. 
 
 <img width="420" alt="2021-11-21 (13)" src="https://user-images.githubusercontent.com/84471904/142788352-b2db31ee-15fd-4610-a578-5c052f4b3481.png">
+
 3.  Set "Job" as common index when possible
  
 4.  Created new dataframes to calculate actual material costs and actual labor costs
@@ -30,7 +31,13 @@ Steps taken:
 
 <img width="605" alt="2021-11-21 (18)" src="https://user-images.githubusercontent.com/84471904/142788905-286d96ff-5c36-4944-89c5-01546f228da9.png">
 
+7.  To generate labor costs, created new column (Labor_Estimate) in TSheets dataframe which shows employee hourly rates, sum by job, drop unnecessary columns, and merge with actual labor costs dataframe:  
 
+<img width="549" alt="2021-11-22 (2)" src="https://user-images.githubusercontent.com/84471904/142927587-0e5e57c7-d46b-4dc7-8e1c-49a721ff263a.png">
+
+8.  For the one employee that does not use TSheets for tracking time (Randy), calculate his costs per job and add merge it with the actual labor costs dataframe:
+
+<img width="618" alt="2021-11-22 (3)" src="https://user-images.githubusercontent.com/84471904/142928046-a2ad375b-6b97-49f6-9aaa-a67e7659aed6.png">
 
 
 Week 2 - Project Notes
