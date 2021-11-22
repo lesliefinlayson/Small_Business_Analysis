@@ -1,0 +1,23 @@
+-- Creating tables 
+CREATE TABLE data (
+	Job VARCHAR NOT NULL,
+    Location VARCHAR NOT NULL,
+	Customer VARCHAR NOT NULL,
+   
+-- Jobs that underestimated bid (undercharged customer)
+SELECT job, scope, estimated_total_cost, actual_total_cost, gain_or_loss
+INTO high_loss_projects
+FROM data
+WHERE gain_or_loss BETWEEN '-7000' AND '-500';
+
+
+-- Jobs that overestimated bid (overcharged customer )
+SELECT job, scope, estimated_total_cost, actual_total_cost, gain_or_loss
+INTO underestimated_projects
+FROM data
+WHERE gain_or_loss BETWEEN '500' AND '5000';
+
+
+--Total Gain_or_Loss column 
+SELECT Sum (gain_or_loss)
+FROM data;
