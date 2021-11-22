@@ -39,6 +39,11 @@ Steps taken:
 
 <img width="618" alt="2021-11-22 (3)" src="https://user-images.githubusercontent.com/84471904/142928046-a2ad375b-6b97-49f6-9aaa-a67e7659aed6.png">
 
+9.  Sum the two labor columns to create the actual labor costs dataframe and merge with the materials dateframe to create the final dataframe
+
+<img width="758" alt="2021-11-22 (4)" src="https://user-images.githubusercontent.com/84471904/142929080-ed1e47e0-60ab-4932-bc8c-7c16cdcebd2c.png">
+
+
 
 Week 2 - Project Notes
 
