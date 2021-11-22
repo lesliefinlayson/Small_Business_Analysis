@@ -43,6 +43,14 @@ Steps taken:
 
 <img width="758" alt="2021-11-22 (4)" src="https://user-images.githubusercontent.com/84471904/142929080-ed1e47e0-60ab-4932-bc8c-7c16cdcebd2c.png">
 
+10. Sum Actual Labor costs and Actual Materials Cost for a new column Actual_Total_Cost.  Make a new column (Gain_or_Loss) showing the difference between estimated and total costs
+
+<img width="759" alt="2021-11-22 (6)" src="https://user-images.githubusercontent.com/84471904/142929967-ed703885-2fba-426c-ac03-1382399d7710.png">
+
+11.  Add a new column "gain" which shows "yes" if the difference between the estimated cost and the actual cost is greater than 0 and "no" if the difference between the estimated cost and the actaul cost is less than 0:  
+
+<img width="775" alt="2021-11-22 (8)" src="https://user-images.githubusercontent.com/84471904/142930860-420b28f2-2dc1-471d-860a-ee8a4e653703.png">
+
 
 
 Week 2 - Project Notes
