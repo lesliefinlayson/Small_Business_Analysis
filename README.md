@@ -16,6 +16,8 @@ Task:  collect information in one place.  I used Pandas in Jupyter Notebooks for
 
 Steps taken:
 1.  Created dataframes for each of the Excel spreadsheets and used info() to review non-null counts and data types.  
+2.  The imported csv files contain "currency" data type and had to be converted to numeric formats. 
+
 
 
 Week 2 - Project Notes
