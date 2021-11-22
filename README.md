@@ -55,7 +55,7 @@ Finally have a dataframe that can be used for analysis.
 
 ### _Graphs in Tableau_
 
-Initial Graphs:
+#### Initial Graphs:
 
 •	Pie chart showing how many jobs per scope
 
@@ -63,7 +63,15 @@ Initial Graphs:
 
 https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/EstimatedandTotalCosts?publish=yes
 
-Graphs for further Analysis: 
+#### Graphs for further Analysis: 
+
+•	Bar chart showing how far off total costs are to estimated costs
+
+•	Count of how many projects with actual costs over estimate and how many projects with actual costs under estimate
+
+•	Bar chart comparing estimated and actual project costs
+
+•	Chart and results from SQL database
 
 
 
