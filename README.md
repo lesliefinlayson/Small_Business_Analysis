@@ -19,6 +19,13 @@ Steps taken:
 2.  The imported csv files contain "currency" data type and had to be converted to numeric formats. 
 
 <img width="420" alt="2021-11-21 (13)" src="https://user-images.githubusercontent.com/84471904/142788352-b2db31ee-15fd-4610-a578-5c052f4b3481.png">
+3.  Set "Job" as common index when possible
+4.  Used "groupby" material costs and labor costs per job.  Example:
+ <img width="397" alt="2021-11-21 (15)" src="https://user-images.githubusercontent.com/84471904/142788648-f72f5292-8c65-4c7c-a965-cb1edb635456.png">
+5.  Added these new columns to the existing dataframes using "merge".  Example:
+
+<img width="562" alt="2021-11-21 (17)" src="https://user-images.githubusercontent.com/84471904/142788838-4065fea8-04ad-4760-9931-2957ed2e8dfb.png">
+
 
 
 Week 2 - Project Notes
