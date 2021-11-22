@@ -18,6 +18,7 @@ Steps taken:
 1.  Created dataframes for each of the Excel spreadsheets and used info() to review non-null counts and data types.  
 2.  The imported csv files contain "currency" data type and had to be converted to numeric formats. 
 
+<img width="420" alt="2021-11-21 (13)" src="https://user-images.githubusercontent.com/84471904/142788352-b2db31ee-15fd-4610-a578-5c052f4b3481.png">
 
 
 Week 2 - Project Notes
