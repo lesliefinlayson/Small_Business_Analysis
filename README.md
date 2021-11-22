@@ -80,8 +80,10 @@ To load the Pandas dataframe into SQL, added the folloiwng in Jupyter notebook:
 
 <img width="349" alt="2021-11-22 (10)" src="https://user-images.githubusercontent.com/84471904/142949564-7cdd24d1-2614-4a26-9264-21fc00982930.png">
 
-Ran two queries:  
+Queries (all shown on Tableau dashboard):  
 
-• Count how many projects over the estimate and how many projects with actual costs under estimate (chart shown on Tableau dashboard)
+• Count how many projects over the estimate and how many projects with actual costs under estimate 
 
-• Created a new table listing jobs where loss was greater than $500 ((chart shown on Tableau dashboard)
+• Sum of Gain_or_Loss column
+
+• Created a new table listing jobs where loss was greater than $500 
