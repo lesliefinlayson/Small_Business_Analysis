@@ -63,7 +63,7 @@ Finally have a dataframe that can be used for analysis.
 
 https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/EstimatedandTotalCosts?publish=yes
 
-#### Graphs for further Analysis: 
+#### Visusal data from further analysis: 
 
 •	Bar chart showing how far off total costs are to estimated costs
 
@@ -72,6 +72,8 @@ https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_1636049
 •	Bar chart comparing estimated and actual project costs
 
 •	Chart and results from SQL database
+
+https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/estimatecomparision?publish=yes
 
 
 
