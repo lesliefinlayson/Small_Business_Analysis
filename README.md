@@ -1,3 +1,9 @@
+Week 3.  
+Completed ML
+Struggled with the interactive part.  Finally used VB macros to make interactive buttons.
+Most of GitHub readme complete, slide presentation draft done
+
+
 # Happy To Help Construction Analysis 
 
 ## Project Overview and Purpose
