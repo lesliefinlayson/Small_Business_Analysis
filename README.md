@@ -6,7 +6,7 @@ Business is booming for Happy to Help Construction, a local construction company
 
 Question for this analysis - how well is this working?  Are Bob's project "guesstimates" close to actual project costs?
 
-## Analysis
+## Analysis and Results
 
 ### _Pre-processing_
 
@@ -121,7 +121,21 @@ _Supervised Learning Tasks:_
 
 • Create predictions with y_pred = model.predict(X).
 
+_Evaluating the Model:_
 
+Confusion Matrix:
+
+<img width="237" alt="2021-11-22 (29)" src="https://user-images.githubusercontent.com/84471904/142972699-0948f269-cae6-4a5c-be3d-557146cec178.png">
+
+What it means:
+
+• Model predicted 1 true that was actually true
+
+• Model predicted 0 true that was actually false
+
+• Model predicted 2 false that were actually true
+
+• Model predicted 4 false that were actually false
 
 
 
