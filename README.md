@@ -94,7 +94,6 @@ I chose logistic regression because it predicts binary outcomes.  The most strip
 
 A great deal of data was collected during this analysis ETL process:
 
-<img width="597" alt="2021-11-22 (12)" src="https://user-images.githubusercontent.com/84471904/142957770-01a1e054-8998-48e3-aad3-4768b9a80029.png">
 
 <img width="750" alt="2021-11-22 (14)" src="https://user-images.githubusercontent.com/84471904/142958169-8c6fc8f8-7f74-4b6d-92b0-781613024e5e.png">
 
