@@ -157,7 +157,7 @@ A great deal of data has been generated and analyzed.  Bob has requests:
 
 • Add a button to quickly show the final tally of the Gain_or_Loss column
 
-![image](https://user-images.githubusercontent.com/84471904/142973747-c1fcf7a1-8414-4a8e-b3bb-249488742286.png)
+<img width="462" alt="2021-11-22 (33)" src="https://user-images.githubusercontent.com/84471904/142974076-ad5d7766-83aa-4d25-83da-e5afa8c89c99.png">
 
 Just to show Mike what else we can do, created a survey button.  If "yes" selected, message saying "Great!!" appears.  If "no" selected, a message stating "We'll keep working on it!" is displayed. 
 
