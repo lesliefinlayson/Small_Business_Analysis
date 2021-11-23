@@ -149,6 +149,23 @@ What it means:
 
 • Recall (sensitivity) for predicting project loss is lower than predicting project gain, which is reflected in the dropped F1 score as well
 
+## Interactive Features - Buttons - and Fine Tuning with Visual Basic
+
+A great deal of data has been generated and analyzed.  Bob has requests:
+
+• Simplify worksheet by hiding columns not currently needed and add color to the most important column - Gain
+
+• Add a button to quickly show the final tally of the Gain_or_Loss column
+
+![image](https://user-images.githubusercontent.com/84471904/142973747-c1fcf7a1-8414-4a8e-b3bb-249488742286.png)
+
+Just to show Mike what else we can do, created a survey button.  If "yes" selected, message saying "Great!!" appears.  If "no" selected, a message stating "We'll keep working on it!" is displayed. 
+
+<img width="630" alt="2021-11-22 (34)" src="https://user-images.githubusercontent.com/84471904/142973927-d73696f8-dbb4-4e76-9825-e50035459b8e.png">
+
+
+
+
 
 
 
