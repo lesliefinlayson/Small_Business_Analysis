@@ -137,6 +137,17 @@ What it means:
 
 • Model predicted 4 false that were actually false
 
+Classification Report:
+
+<img width="313" alt="2021-11-22 (30)" src="https://user-images.githubusercontent.com/84471904/142973029-1771a26d-5a81-43ed-a08d-3fcff0cab0e7.png">
+
+What it means:
+
+• Model’s prediction accuracy at 71%
+
+• Precision for predicting project losing money (gain = 0) at 100%
+
+• Recall (sensitivity) for predicting project loss is lower than predicting project gain, which is reflected in the dropped F1 score as well
 
 
 
