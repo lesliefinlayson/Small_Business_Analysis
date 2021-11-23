@@ -97,8 +97,17 @@ A great deal of data was collected during this analysis ETL process:
 
 <img width="750" alt="2021-11-22 (14)" src="https://user-images.githubusercontent.com/84471904/142958169-8c6fc8f8-7f74-4b6d-92b0-781613024e5e.png">
 
+Working with Bob, we narrowed the potentially most relevant variables to Estimated_Total_Cost, Project_Scope, Time_Months, Project_Location and Gain.
 
+_Preprocessing needed:_
 
+• To use Scikit-learn's machine learning algorithms, the text features (Project_Scope, Project_Location, and Gain) had to be converted into numbers. 
+
+<img width="544" alt="2021-11-22 (21)" src="https://user-images.githubusercontent.com/84471904/142970187-9adb0305-8a0f-418c-aae7-33250fbf2d8b.png">
+
+• Data scaling was also needed to prepare the data for machine learning. When features have different scales, features using larger numbers can have a disproportionate impact on the model. Scaling reduces the likelihood that large values will unduly influence the model.  In this case, Estimated_Total_Cost needed to be scaled.  
+
+<img width="318" alt="2021-11-22 (23)" src="https://user-images.githubusercontent.com/84471904/142970612-91af28cb-5bbb-42d4-ab13-f52ca3bcb298.png">
 
 
 
