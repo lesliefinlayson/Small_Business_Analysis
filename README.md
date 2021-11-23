@@ -109,7 +109,17 @@ _Preprocessing needed:_
 
 <img width="318" alt="2021-11-22 (23)" src="https://user-images.githubusercontent.com/84471904/142970612-91af28cb-5bbb-42d4-ab13-f52ca3bcb298.png">
 
+_Supervised Learning Tasks:_
 
+• Split the data into Input (X) and output (y)
+
+<img width="428" alt="2021-11-22 (25)" src="https://user-images.githubusercontent.com/84471904/142971054-e7014893-fbc3-49c3-9897-0426ab4a8eaf.png">
+
+• Create an instance of the model with model = LogisticRegression().
+
+• Train the model with the dataset with model.fit(X,y).
+
+• Create predictions with y_pred = model.predict(X).
 
 
 
