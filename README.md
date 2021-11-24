@@ -159,11 +159,31 @@ A great deal of data has been generated and analyzed.  Bob has requests:
 
 <img width="462" alt="2021-11-22 (33)" src="https://user-images.githubusercontent.com/84471904/142974076-ad5d7766-83aa-4d25-83da-e5afa8c89c99.png">
 
-Just to show Mike what else we can do, created a survey button.  If "yes" selected, message saying "Great!!" appears.  If "no" selected, a message stating "We'll keep working on it!" is displayed. 
+Just to show Bob what else we can do, created a survey button.  If "yes" selected, message saying "Great!!" appears.  If "no" selected, a message stating "We'll keep working on it!" is displayed. 
 
 <img width="630" alt="2021-11-22 (34)" src="https://user-images.githubusercontent.com/84471904/142973927-d73696f8-dbb4-4e76-9825-e50035459b8e.png">
 
+### _Project Challenges_
 
+There was a great deal of data collected in different ways.  It took some exploratory work to determine how to proceed with answering the question.
+
+While I was able to do the ETL I wanted in Jupyter notebooks, it was repetitive and not very elegant.  I am sure that there would be ways to improve this, including more functions.
+
+After I had done the transformation part of ETL in Jupyter notebooks - adding additional columns such as showing the difference between the estimated total and the actual total - realized it might have been better for future work to have done this in the SQL dataframe.
+
+Machine learning model - do not think I was able to clearly show how this would be helpful to Bob.  Could use more work, perhaps use a different model.
+
+### _Project Summary_
+
+By using the tools I learned in this data analytics bootcamp, was very clearly able to demonstrate that Bob's bid estimates are off and that he is losing money by under-estimating costs.  This is visually demonstrated in the graphs created in Tableau and the charts generated from the SQL database.
+
+### _Next Steps_
+
+Dive deeper into the data.  For example, the SQL chart that lists which projects had total actual costs $500 or greater than the estimated costs were all multi-scope projects.  This could be further explored and of help to Bob.  
+
+Set up tracking for current projects:  help Bob transition to a more formal (accurate) way to track job labor and material costs.
+
+Bob prefers simplicity and quick answers - create more buttons so he can quickly access information.  An interactive webpage might be of value too.  
 
 
 
