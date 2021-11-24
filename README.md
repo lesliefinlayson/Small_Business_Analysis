@@ -73,7 +73,9 @@ This chart quickly shows how close job actual total costs are to Bob's estimated
 
 •	Bar chart showing how far off total costs are to estimated costs
 
+<img width="352" alt="2021-11-24 (4)" src="https://user-images.githubusercontent.com/84471904/143258309-75304372-139f-482d-8eb6-1ebce515641a.png">
 
+This chart very clearly shows that the bid cost estimates are off from the actual total costs.  Particularly worrisome, the dark orange bars, such as Wagner.  Clicking on this bar shows a loss of over $6000!
 
 •	Bar chart comparing estimated and actual project costs
 
