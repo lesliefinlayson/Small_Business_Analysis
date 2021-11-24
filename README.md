@@ -195,6 +195,8 @@ Machine learning model - do not think I was able to clearly show how this would 
 
 By using the tools I learned in this data analytics bootcamp, was very clearly able to demonstrate that Bob's bid estimates are off and that he is losing money by under-estimating costs.  This is visually demonstrated in the graphs created in Tableau and the charts generated from the SQL database.
 
+The google slide presentation offers a quick synapsis of this project: https://docs.google.com/presentation/d/1BM0jROp515q0DkptDZwpbM5Stxlr1Xe-UMKnNxfcv6Q/edit#slide=id.p
+
 ### _Next Steps_
 
 Dive deeper into the data.  For example, the SQL chart that lists which projects had total actual costs $500 or greater than the estimated costs were all multi-scope projects.  This could be further explored and of help to Bob.  
