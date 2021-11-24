@@ -57,9 +57,9 @@ Finally have a dataframe that can be used for analysis.
 
 ## _Graphs in Tableau_
 
-#### Initial Graphs: https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/EstimatedandTotalCosts?publish=yes
+#### Initial graphs: https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/EstimatedandTotalCosts?publish=yes
 
-#### Further analysis with Graphs and Charts: https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/estimatecomparision?publish=yes
+#### Further analysis with graphs and charts: https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/estimatecomparision?publish=yes
 
 •	Pie chart showing how many jobs per scope:
 
@@ -80,11 +80,6 @@ This chart quickly shows how close job actual total costs are to Bob's estimated
 
 This chart very clearly shows that the bid cost estimates are off from the actual total costs.  Particularly worrisome, the dark orange bars, such as Wagner.  Clicking on this bar shows a loss of over $6000!
 
-•	Bar chart comparing estimated and actual project costs
-
-•	Charts created in SQL 
-
-
 ### _SQL database using PgAdmin 4_
 
 To load the Pandas dataframe into SQL, added the folloiwng in Jupyter notebook:
@@ -95,9 +90,21 @@ Queries (all shown on Tableau dashboard):
 
 • Count how many projects over the estimate and how many projects with actual costs under estimate 
 
+<img width="155" alt="2021-11-24 (5)" src="https://user-images.githubusercontent.com/84471904/143259897-4de0900e-7342-4661-ba45-28b81eb3a158.png">
+
+Interesting piece of information, more of Bob's bids over-estimated total project costs than under-estimated.
+
 • Sum of Gain_or_Loss column
 
+<img width="155" alt="2021-11-24 (6)" src="https://user-images.githubusercontent.com/84471904/143260289-4c6d065b-8211-4ef4-8ec2-79b134f7d341.png">
+
+However, even though more job cost estimates were higher than actual total project estimates, when summed together there has been a loss of over $12,000.  Not good news for Bob.  
+
 • Created a new table listing jobs where loss was greater than $500 
+
+<img width="294" alt="2021-11-24 (7)" src="https://user-images.githubusercontent.com/84471904/143260749-ee970e38-9969-4734-9fb9-054786668e89.png">
+
+Bob asked to see a list of projects where the estimated bid cost was under the actual total costs by $500 or more.  This chart shows 9 projects meeting this criteria.  Interestingly, all are large scale remodels.  
 
 ## Machine Learning Model
 
