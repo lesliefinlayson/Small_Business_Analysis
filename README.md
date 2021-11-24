@@ -69,15 +69,15 @@ While pie charts are not the best way to convey data, this was of interest to Bo
 
 This chart quickly shows how close job actual total costs are to Bob's estimated total costs.  Indicator that something is off with Bob's bids:  the green bars (actual total project costs) are quite often taller than the yellow bars (estimated project total costs). 
 
-#### Visual data from further analysis: 
+#### Visual data from further analysis: https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/estimatecomparision?publish=yes
 
 •	Bar chart showing how far off total costs are to estimated costs
+
+
 
 •	Bar chart comparing estimated and actual project costs
 
 •	Charts created in SQL 
-
-https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/estimatecomparision?publish=yes
 
 
 ### _SQL database using PgAdmin 4_
