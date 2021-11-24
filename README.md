@@ -57,7 +57,12 @@ Finally have a dataframe that can be used for analysis.
 
 #### Initial Graphs:
 
-•	Pie chart showing how many jobs per scope
+•	Pie chart showing how many jobs per scope:
+
+<img width="386" alt="2021-11-24 (2)" src="https://user-images.githubusercontent.com/84471904/143255494-6b3fcc62-68b3-47ec-98bc-6bd0f351db4a.png">
+
+While pie charts are not the best way to convey data, this was of interest to Bob.  He was not aware that job scope had shifted from primarily kitchen and bathroom remodels to large scale remodels.  
+
 
 •	Bar chart comparing estimated and actual project costs
 
