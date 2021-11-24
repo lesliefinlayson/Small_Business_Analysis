@@ -55,7 +55,7 @@ Finally have a dataframe that can be used for analysis.
 
 ### _Graphs in Tableau_
 
-#### Initial Graphs:
+#### Initial Graphs: https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/EstimatedandTotalCosts?publish=yes
 
 •	Pie chart showing how many jobs per scope:
 
@@ -63,12 +63,13 @@ Finally have a dataframe that can be used for analysis.
 
 While pie charts are not the best way to convey data, this was of interest to Bob.  He was not aware that job scope had shifted from primarily kitchen and bathroom remodels to large scale remodels.  
 
-
 •	Bar chart comparing estimated and actual project costs
 
-https://public.tableau.com/app/profile/leslie.finlayson/viz/FinalProject_16360494630080/EstimatedandTotalCosts?publish=yes
+<img width="492" alt="2021-11-24 (3)" src="https://user-images.githubusercontent.com/84471904/143256411-bb5f5dff-b191-4d12-9522-eb6d7b68e1fd.png">
 
-#### Visusal data from further analysis: 
+This chart quickly shows how close job actual total costs are to Bob's estimated total costs.  Indicator that something is off with Bob's bids:  the green bars (actual total project costs) are quite often taller than the yellow bars (estimated project total costs). 
+
+#### Visual data from further analysis: 
 
 •	Bar chart showing how far off total costs are to estimated costs
 
