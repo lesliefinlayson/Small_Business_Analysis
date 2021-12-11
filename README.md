@@ -106,67 +106,6 @@ However, even though more job cost estimates were higher than actual total proje
 
 Bob asked to see a list of projects where the estimated bid cost was under the actual total costs by $500 or more.  This chart shows 9 projects meeting this criteria.  Interestingly, all are large scale remodels.  
 
-## Machine Learning Model
-
-I chose logistic regression because it predicts binary outcomes.  The most stripped down question of this analysis is whether Bob's job cost estimates for construction projects is less than the actual projects' costs and he is losing money.  The previously described analysis using Tableau and SQL shows that Bob is indeed losing money.  Can a logistic regression model predict this?
-
-A great deal of data was collected during this analysis ETL process:
-
-
-<img width="750" alt="2021-11-22 (14)" src="https://user-images.githubusercontent.com/84471904/142958169-8c6fc8f8-7f74-4b6d-92b0-781613024e5e.png">
-
-Working with Bob, we narrowed the potentially most relevant variables to Estimated_Total_Cost, Project_Scope, Time_Months, Project_Location and Gain.
-
-_Preprocessing needed:_
-
-• To use Scikit-learn's machine learning algorithms, the text features (Project_Scope, Project_Location, and Gain) had to be converted into numbers. 
-
-<img width="544" alt="2021-11-22 (21)" src="https://user-images.githubusercontent.com/84471904/142970187-9adb0305-8a0f-418c-aae7-33250fbf2d8b.png">
-
-• Data scaling was also needed to prepare the data for machine learning. When features have different scales, features using larger numbers can have a disproportionate impact on the model. Scaling reduces the likelihood that large values will unduly influence the model.  In this case, Estimated_Total_Cost needed to be scaled.  
-
-<img width="318" alt="2021-11-22 (23)" src="https://user-images.githubusercontent.com/84471904/142970612-91af28cb-5bbb-42d4-ab13-f52ca3bcb298.png">
-
-_Supervised Learning Tasks:_
-
-• Split the data into Input (X) and output (y)
-
-<img width="428" alt="2021-11-22 (25)" src="https://user-images.githubusercontent.com/84471904/142971054-e7014893-fbc3-49c3-9897-0426ab4a8eaf.png">
-
-• Create an instance of the model with model = LogisticRegression().
-
-• Train the model with the dataset with model.fit(X,y).
-
-• Create predictions with y_pred = model.predict(X).
-
-_Evaluating the Model:_
-
-Confusion Matrix:
-
-<img width="237" alt="2021-11-22 (29)" src="https://user-images.githubusercontent.com/84471904/142972699-0948f269-cae6-4a5c-be3d-557146cec178.png">
-
-What it means:
-
-• Model predicted 1 true that was actually true
-
-• Model predicted 0 true that was actually false
-
-• Model predicted 2 false that were actually true
-
-• Model predicted 4 false that were actually false
-
-Classification Report:
-
-<img width="313" alt="2021-11-22 (30)" src="https://user-images.githubusercontent.com/84471904/142973029-1771a26d-5a81-43ed-a08d-3fcff0cab0e7.png">
-
-What it means:
-
-• Model’s prediction accuracy at 71%
-
-• Precision for predicting project losing money (gain = 0) at 100%
-
-• Recall (sensitivity) for predicting project loss is lower than predicting project gain, which is reflected in the dropped F1 score as well
-
 ## Interactive Features - Buttons - and Fine Tuning with Visual Basic
 
 A great deal of data has been generated and analyzed.  Bob has requests:
